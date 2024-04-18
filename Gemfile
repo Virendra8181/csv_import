@@ -7,6 +7,12 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
+gem "redis"
+gem 'bcrypt'
+gem 'ngrok'
+# Gemfile
+gem 'rack-cors', require: 'rack/cors'
+
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
@@ -41,6 +47,11 @@ gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+
+#import excel file 
+gem "roo"
+gem "byebug"
+# gem 'axlsx'
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
